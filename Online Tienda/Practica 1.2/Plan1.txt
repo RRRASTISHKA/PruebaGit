@@ -1,0 +1,58 @@
+Sección: Encabezado del sitio
+Título : 
+1)Logotipo de su empresa
+         
+2)Navegador 
+contenido:
+2.1) - Inicio - Tienda - Tus compras - Contacto - Sobre nosotros
+
+3)Menú de selección de idioma
+contenido: - Español - Inglés
+
+
+
+Seccion : Sección Tienda
+
+Titulo:
+1) Nuestros productos
+2) Lista de productos
+2.1) contenido: 
+ -Producto 1 (imagen, nombre, precio, botón "Agregar al carrito")
+- Producto 2 imagen, nombre, precio, botón "Agregar al carrito") - ...
+ - Producto 10 (imagen, nombre, precio, botón "Agregar al carrito")
+
+Seccion Contacto:
+
+Titulo:
+1)Titulo:Contacto
+2)Formulario de contacto
+contenido:
+2.1) - Nombre- Correo electrónico - Mensaje< - Botón "Enviar"
+3)Información de contacto
+contenido: 
+3.1) - Dirección- Número de teléfono
+
+Sección Sobre nosotros (Blog):
+
+Titulo:
+1)Título: Sobre nosotros y nuestras noticias
+2)Información breve sobre la empresa
+3)Lista de las últimas noticias
+contenido:
+3.1) - Noticia 1 (título, breve descripción, fecha)
+- Noticia 2 (título, breve descripción, fecha)
+- Noticia 10 (título, breve descripción, fecha)
+4)Botón "Leer todas las noticias"
+
+Sección Pie de página:
+
+Titulo:
+1)Información de contacto
+2)Mapa de navegación con la ubicación de su empresa
+
+ 
+
+
+
+
+

@@ -1,0 +1,13 @@
+Colores de 3 paginas:
+
+1)DDE7FF
+2)BBBDF5
+3)000000
+4)FFFFFF
+
+
+Text
+
+1) Black
+2) Regular
+3)Thin

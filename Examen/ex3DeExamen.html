@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex3</title>
+</head>
+<body>
+    <form action="#">
+        <p>Nombre</p>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required minlength="5" maxlength="50">
+        <br>
+        <p>Email:</p>
+        <input type="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="@gmail" >
+        <p>Telefono:</p>
+        <input type="text" name="telefono" id="telefono"  placeholder="Formato: xxx-xxx-xxxx" required pattern="\d{3}-\d{3}-\d{4}">
+        <p>Contrasena</p>
+        <input type="password" id="password" name="password" placeholder="Contrasena" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$">
+        <p>Archivo</p>
+        <input type="file" id="archivo" name="archivo">
+        <p>Pelicula</p>
+        <select name="Pelicula" id="Pelicula" required>
+            <option value="" disabled selected>Pelicula</ption>
+            <option value="Ratatui">Ratatui</option>
+            <option value="Shrek">Shrek</option>
+            <option value="Shrek 2">Shrek 2</option>
+            <option value="Shrek 3" >Shrek 3</option> 
+        </select>
+        <p>Dia</p>
+        <input type="date" name="dia" id="dia" required min="26/11/2023" max="31/12/2023">
+        <p>Numero de asientos</p>
+        <input type="number"  min="1" max="10" required>
+        <p>Tipo de entrada </p>
+        <select name="entrada" id="entrada" required>
+            <option value="Tipo de entrada" disabled selected>Tipo de entrada</option>
+            <option value="Estudiante">Estudiante</option>
+            <option value="Adulto">Adulto</option>
+            <option value="Nino">Nino</option>
+        </select>
+        <br>
+        <span>Se requieren asientos accesibles?</span>
+        <input type="checkbox" name="asientosAccesibles">
+        <br>
+        <textarea name="" id="" maxlength="200"></textarea>
+        <p>Preferencias de asientos</p>
+        <select id="preferenciasAsientos" name="preferenciasAsientos">
+            <option value="pasillo">Pasillo</option>
+            <option value="centro">Centro</option>
+            <option value="primeraFila">Primera Fila</option>
+            <option value="ultimaFila">Ultima Fila</option>
+        </select>
+        <br>
+        <span>Aceptar todos los terminos y condiciones</span>
+        <input type="checkbox" name="TerminosYCondiciones">
+        <p>Tarjeta credito</p>
+        <input type="text" name="TarjetaCredito"  pattern="\d{4}-\d{4}-\d{4}-\d{4}" required>
+        <input type="submit" name="submit" id="submit" value="Enviar">
+    </form>
+</body>
+</html>
